@@ -1,0 +1,34 @@
+*{
+    background-color: pink;
+}
+
+img {
+    max-width:95%;
+    height:auto;
+}
+
+h1:hover, h2:hover {
+    background-color:red;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: pink;
+    padding: 2px;
+  }
+.images {
+    background-color: pink;
+    border: 1px solid pink;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.end {
+  display: flex;
+  flex-direction: column;
+  
+}
+  
+

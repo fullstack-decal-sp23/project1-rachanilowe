@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <meta name="author" content="Rachel Lowe">
+        <link rel="stylesheet" href="styles.css">
+        <title>Rachel Lowe Profile</title>
+    </head>
+    <body>
+        <h1 style="text-align:center">Rachel Lowe</h1> 
+        <h2 style="text-align:center">Welcome to my website!</h2>
+        <h3>About me:</h3>
+        <p>Hi, I'm a sophmore CS student at UC Berkeley! I'm originally from the bay area so coming to Berkeley was not a big change for me. This is my first semester learning about WebDev and I love it so far. Outside of school I love eatting a new restaurants, exploring the outdoors, and reading!</p>
+        
+        <div class="pictures">
+            <div class="images"><img src="fam.png" alt="picture of rachel and friends"/></div>
+            <div id="main" class="images"><img src="me.jpeg" alt="This is me!"/></div>
+            <div class="images"><img src="bf.jpeg" alt="picture of me and my bf"/></div>
+        </div>
+
+
+        <h4>Work/projects:</h4>
+        <ul>
+            <li>CS61a: 
+                <ul>
+                    <li>Ants vs Some Bees</li>
+                    <li>Scheme Interpreter</li>
+                </ul>
+            </li>
+            <li>CS61b
+                <ul>
+                    <li>NGordnet</li>
+                    <li>Build Your Own World</li>
+                </ul>
+            </li>
+            <li>High School:
+                <ul>
+                    <li>CVS Health - Shift Supervisor</li>
+                    <li>Reboot Spa - Spa Associate</li>
+                </ul>
+            </li>
+    
+        </ul>
+
+        <h5>Contact Information: </h5>
+        <p>Email: rachellowe@berkeley.edu</p>
+
+        <a target="_blank" href="https://www.linkedin.com/in/rachel-lowe-7064b9214">Linkedin</a>
+        <br>
+        <br>
+        <form action="/action_page.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Subscribe">
+            <button onclick="myFunction()">What does this do?</button>
+        </form>
+
+
+    <script>
+    function myFunction() {
+        alert("Hello! By pressing subsribe you are subscribing to my website!");
+    }
+    </script>
+
+    <div>
+        <h6>Will you be coming back to visit this site again?</h6>
+        <button class="end" onclick="alert('Thanks for your support')">Yes</button>
+        <button class="end" onclick="alert('Please let me know how I can improve my site!')">No</button>
+
+    </div>
+
+ 
+    </body>
+</html>
